@@ -227,3 +227,13 @@ nav ul li a:hover {
     font-size: 12px;
     color: #333;
 }
+
+footer {
+    border-top: solid #ccc 1px;
+}
+footer span {
+    width: 1200px;
+    display: block;
+    margin: 0 auto;
+    padding: 20px;
+}

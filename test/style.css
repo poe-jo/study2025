@@ -1,0 +1,229 @@
+/* 언어설정 */
+@charset 'utf-8';
+/* 폰트 */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+/* 
+.montserrat-<uniquifier> {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+*/
+
+/* 기본설정 */
+* { margin:0; padding:0;}
+ol, ul {list-style:  none;}
+a {text-decoration: none; color:#222;}
+body {color:#222;}
+
+/* 본문 */
+header {
+    padding: 20px;
+    width:1200px;
+    margin: 20px auto;
+}
+header div {
+    font-family: "Montserrat", sans-serif;
+}
+header div h1 {
+    color: #222;
+}
+
+nav {
+    background-color:#222;
+    padding: 10px;
+    /* width:1200px; */
+}
+nav ul {
+    width:1200px;
+    margin:0 auto;
+    display: flex;
+    /* justify-content: space-between; */
+}
+nav ul li {
+
+}
+nav ul li a {
+    color: #fff;
+    display: inline-block;
+    padding:10px;
+}
+nav ul li a:hover {
+    background-color: #ddd;
+    color:#222;
+}
+
+.wrap {
+    width:1200px;
+    margin: 20px auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+.box01 {
+    width:70%;
+    box-sizing: border-box;
+    padding-right: 60px;
+}
+.box02 {
+    width:30%;
+    box-sizing: border-box;
+}
+.box01 time {
+    display: block;
+    margin:20px 0;
+}
+.box01 time i {
+    margin-right: 5px;
+}
+.box01 h2 {
+    font-size: 30px;
+} 
+.tag ul {
+    display: flex;
+}
+
+.tag a {
+    display: inline-block;
+    padding: 5px 10px;
+    background-color: #222;
+    color: #fff;
+    margin: 20px 5px;
+    border-radius: 5px;
+}
+.tag a:hover {
+    background-color: #ddd;
+    color:#222;    
+}
+.title {
+    border-left: solid 4px #222;
+    padding-left:10px;
+}
+.imgBox img {
+    width:100%;
+    vertical-align: bottom;
+}
+
+.box01 p {
+    padding: 10px 0px;
+}
+.box01 h3 {
+    margin: 10px 0px;
+}
+
+.snsBox {margin-top: 50px;margin-bottom: 50px;}
+.snsBox ul {
+    display: flex;
+}
+.snsBox ul li {width: 33.3333%;}
+.snsBox ul li a {
+    display: inline-block;
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+    color: #fff;
+    box-sizing: border-box;
+}
+.snsBox ul li a i {margin-right: 10px;}
+.snsBox ul li:nth-child(1) a {background-color: #1da1f2;}
+.snsBox ul li:nth-child(2) a {background-color: #213e97;}
+.snsBox ul li:nth-child(3) a {background: linear-gradient(80deg,#e1306c,#f56040 ,#fcaf45);}
+
+.relBox {
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #ccc;
+}
+.relBox h2 {
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+.relBox ul {
+    display: flex;
+}
+.relBox ul li {width:25%;}
+.relBox ul li a {
+    display: block;
+    margin: 10px;
+}
+.relBox ul li a img {
+    width:100%;
+    vertical-align: bottom;
+}
+.relBox ul li a .rel_title {
+    margin-top:10px;
+}
+.relBox ul li a:hover {
+    text-decoration: underline;
+}
+
+.box02 {}
+.box02 section {}
+.box02 h2 {
+    /* font-weight: 400; */
+    font-size: 20px;
+    border-bottom: dotted #ccc 2px;
+    /* margin: 20px; */
+}
+.specBox {
+    padding: 20px;
+    box-sizing: border-box;
+}
+.specBox a {
+    display: block;
+    padding: 6px 0;
+    font-size: 14px;
+}
+.specBox a i {
+    color: #666;
+    margin-right: 5px;
+}
+.recoBox {
+    box-sizing: border-box;
+    padding: 20px;
+}
+.recoBox li {}
+.recoBox a {
+    display: block;
+    position: relative;
+    margin-top: 10px;
+}
+.recoBox a img {
+    width: 100%;
+    vertical-align: bottom;
+}
+.recoBox a div {
+    width:100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    position: absolute;
+    bottom:0;
+    padding: 5px;
+    box-sizing: border-box;
+}
+
+.popBox {
+    box-sizing: border-box;
+    padding: 20px;
+}
+.popBox li {
+    border-bottom: dotted 1px #ccc;
+    /* margin-bottom: 10px; */
+}
+.popBox a {
+    display: flex;
+    padding: 5px 0;
+}
+.popBox a img {
+    vertical-align: bottom;
+    margin-right: 10px;
+}
+.popBox a div {
+    font-size: 12px;
+    color: #1da1f2;
+}
+.popBox a div span {
+    display: block;
+    font-size: 12px;
+    color: #333;
+}
